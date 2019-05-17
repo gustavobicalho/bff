@@ -1,0 +1,28 @@
+{
+    "results": [
+        {
+        "id": 1,
+        "name": "Gustavo",
+        "lastname": "Bicalho",
+        "location": {
+            "street": "Rua teste",
+            "number": 123,
+            "city": "Uberlândia",
+            "state": "Minas Gerais",
+            "postcode": "38400000",
+            "complement": ""
+        },
+        "gender": "masculino",
+        "email": "gustavobicalho@softbox.com.br",
+        "login": {
+            "username": "teste",
+            "password": "******"
+        },
+        "phone": "3431234567",
+        "cell": "34991234567"
+        }
+    ],
+    "totalPages": 1,
+    "page": 1
+}
+

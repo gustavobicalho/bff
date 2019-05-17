@@ -1,0 +1,12 @@
+{
+  "name": "api-fake-users",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "debug": "~2.6.9",
+    "express": "~4.16.0"
+  }
+}

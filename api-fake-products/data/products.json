@@ -1,0 +1,8 @@
+{   
+    "results": [
+        {"id":1, "description": "Notebook", "price": 500},
+        {"id":2, "description": "Monitor", "price": 100.99}
+    ],
+    "totalPages": 1,
+    "page": 1
+}
