@@ -25,5 +25,5 @@ app.get('/userProducts', (req, res, next) => {
   services.userProducts(req, res, next);
 });
 
-var server = http.createServer(app);
+const server = http.createServer(app);
 server.listen(3000);
