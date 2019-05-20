@@ -9,6 +9,7 @@
   "author": "Gustavo Bicalho",
   "dependencies": {
     "axios": "^0.18.0",
+    "cors": "^2.8.5",
     "express": "^4.16.4",
     "express-http-proxy": "^1.5.1",
     "http": "0.0.0"

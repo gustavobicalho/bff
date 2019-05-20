@@ -6,7 +6,7 @@ exports.formatPhone = (phone) => {
 }
 
 exports.formatPrice = (price) => {
-    price= price.toFixed(2).split('.');
+    price= parseFloat(price).toFixed(2).split('.');
     price[0] = "R$ " + price[0].split(/(?=(?:...)*$)/).join('.');
-    return price.join(',');
+    return price.join(',').replace('.', '');
 }

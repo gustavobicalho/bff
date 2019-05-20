@@ -1,3 +1,7 @@
-exports.PATH = 'http://localhost';
-exports.USER_SERVICE = `${this.PATH}:3001`;
-exports.PRODUCTS_SERVICE = `${this.PATH}:3002`;
+exports.BASE_URL = 'http://localhost:3003';
+exports.USER_SERVICE = 'http://localhost:3001';
+exports.PRODUCTS_SERVICE = 'http://localhost:3002';
+
+exports.services = {
+    ORDER: `${this.BASE_URL}/pedido`
+}

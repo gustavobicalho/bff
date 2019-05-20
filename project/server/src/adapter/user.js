@@ -1,4 +1,4 @@
-const utils = require ('./utils');
+const utils = require ('../utils');
 
 exports.user = (data) => {
     let response = {};
@@ -12,20 +12,6 @@ exports.user = (data) => {
             gender: user.gender,
             email: user.email,
         }
-    });
-    
-    return response;
-}
-
-exports.products = (data) => {
-    let response = [];
-
-    data.results.forEach(product => {
-        response.push({
-            id: product.id,
-            description: product.description,
-            price: utils.formatPrice(product.price)
-        });
     });
     
     return response;
