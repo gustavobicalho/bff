@@ -1,0 +1,30 @@
+.app {
+  padding: 20px;
+}
+
+.app-renderer {
+  border: 1px solid #aaaaaa;
+  margin-top: 20px;
+  padding: 20px;
+  white-space: pre;
+}
+
+button {
+  cursor: pointer;
+  margin-right: 15px;
+  padding: 10px;
+  color: #0062cc;
+  background-color: transparent;
+  background-image: none;
+  border: 1px solid transparent;
+  border-color: #0062cc;
+  font-weight: bold;
+  border-radius: .25rem;
+}
+
+button:hover, button:active {
+  color: #fff;
+  background-color: #0062cc;
+  border-color: #0062cc;
+  box-shadow: 0 0 0 0.2rem rgba(0,123,255,.5);
+}

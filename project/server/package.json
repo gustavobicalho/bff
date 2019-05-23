@@ -12,6 +12,6 @@
     "cors": "^2.8.5",
     "express": "^4.16.4",
     "express-http-proxy": "^1.5.1",
-    "http": "0.0.0"
+    "http": "^0.0.0"
   }
 }
